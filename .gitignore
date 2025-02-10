@@ -3,8 +3,8 @@
 # Unignore dist directory
 !dist/
 # Ignore everything in dist
-dist/*
+public/dist/*
 # Unignore bundle.js
-!dist/bundle.js
+!public/dist/bundle.js
 # Don't forget to keep .gitignore
 !.gitignore
