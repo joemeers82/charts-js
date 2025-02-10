@@ -1,10 +1,17 @@
-# Ignore everything
+# 1) Ignore everything
 *
-# Unignore dist directory
-!dist/
-# Ignore everything in dist
-public/dist/*
-# Unignore bundle.js
-!public/dist/bundle.js
-# Don't forget to keep .gitignore
+
+# 2) Don't ignore .gitignore itself
 !.gitignore
+
+# 3) Unignore the 'public' folder
+!public/
+
+# 4) Unignore the 'public/dist' folder
+!public/dist/
+
+# 5) Ignore everything inside public/dist
+public/dist/*
+
+# 6) Finally, unignore the actual file you want
+!public/dist/bundle.js
