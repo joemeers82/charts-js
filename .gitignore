@@ -1,0 +1,10 @@
+# Ignore everything
+*
+# Unignore dist directory
+!dist/
+# Ignore everything in dist
+dist/*
+# Unignore bundle.js
+!dist/bundle.js
+# Don't forget to keep .gitignore
+!.gitignore
